@@ -9,3 +9,12 @@
     margin: 0;
     text-align: left;
 }
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+  }

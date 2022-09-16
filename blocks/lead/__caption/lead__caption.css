@@ -8,5 +8,17 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 8px 826px 0 0;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+       margin-left: 24px;
+    }
+}
+ 
+ @media screen and (max-width: 320px) {
+    .lead__caption {
+       margin-left: 16px;
+    }
 }
