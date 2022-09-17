@@ -1,7 +1,7 @@
 .cover__overlay {
     max-width: 1184px;
     min-height: min(740px, calc(100vw * 5 / 8));
-    background-image: url(../../../sprint-3-images/sprint-3-images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
