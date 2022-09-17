@@ -1,3 +1,9 @@
 .place__paragraph-container {
     grid-area: paragraph;
 }
+@media screen and (max-width: 767px) {
+    .place__paragraph-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+  }

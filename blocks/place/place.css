@@ -6,7 +6,7 @@
         "title website"
         "image paragraph";
     row-gap: 48px;
-    column-gap: 40px;
+    column-gap: 28px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -20,13 +20,14 @@
     .place {
       max-width: 720px;
       grid-template-columns: 340px 1fr;
+      max-height: 581px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .place {
-      width: 320px;
-      margin-top: 48px;
+      max-width: 320px;
+      max-height: 1042px;
       grid-template-columns: 320px;
       grid-template-areas:
         "title"
