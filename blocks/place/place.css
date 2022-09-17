@@ -20,14 +20,12 @@
     .place {
       max-width: 720px;
       grid-template-columns: 340px 1fr;
-      max-height: 581px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .place {
       max-width: 320px;
-      max-height: 1042px;
       grid-template-columns: 320px;
       grid-template-areas:
         "title"
