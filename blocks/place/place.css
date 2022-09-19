@@ -6,13 +6,14 @@
         "title website"
         "image paragraph";
     row-gap: 48px;
-    column-gap: 28px;
+    column-gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
     .place {
       max-width: 928px;
       grid-template-columns: 440px 1fr;
+      column-gap: 32px;
     }
   }
   
@@ -20,6 +21,7 @@
     .place {
       max-width: 720px;
       grid-template-columns: 340px 1fr;
+      column-gap: 28px;
     }
   }
   

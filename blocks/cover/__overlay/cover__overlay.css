@@ -34,15 +34,3 @@
         width: 100%;
     }
   }
-  
-  @media screen and (max-width: 1023px) {
-    .cover__overlay {
-        width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 520px) {
-    .cover__overlay {
-        width: 100%;
-    }
-  }
